@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pondok Pesantren Yatim Piatu & Dhuafa' Al-Munawwaroh</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style> 
+    /* *{
+        border: 1px solid red !important;
+    } */
+        body {
+            font-family: 'Arial', sans-serif;
+            /* background-color: #f9f9f9; */
+            color: #000000;
+        }
+        
+        /* Navigasi */
+        nav.navbar {
+            background-color: #000000;
+            padding: 15px 0;
+        }
+        
+        nav.navbar a.navbar-brand, nav.navbar a.nav-link {
+            color: rgb(10, 10, 12);
+            font-weight: bold;
+        }
+        
+        /* Header */
+        header.jumbotron {
+            background: linear-gradient(rgba(48, 2, 82, 0.5), rgba(163, 148, 148, 0.5)), url(gambar/pesantren.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: grayscale(10);
+            color: #000000;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        header.jumbotron h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        
+        header.jumbotron p {
+            font-size: 1.2em;
+        }
+        
+        /* Konten Beranda */
+        section#beranda {
+            /* background-color: #faf7fb; */
+            padding: 50px 0;
+        }
+        
+        section#beranda h2 {
+            font-size: 2em;
+            color: #000000;
+        }
+        
+        /* Tentang Kami */
+        section#tentang-kami {
+            /* background-color: #f8f9fa; */
+            padding: 50px 0;
+        }
+        
+        section#tentang-kami h2 {
+            font-size: 2em;
+            color: #000000;
+        }
+        
+        /* Program Unggulan */
+        section#program-unggulan {
+            /* background-color: #f8f6f9; */
+            padding: 50px 0;
+        }
+        
+        section#program-unggulan h2 {
+            font-size: 2em;
+            color: #000000;
+        }
+        
+        section#program-unggulan .card {
+            transition: transform 0.2s;
+        }
+        
+        section#program-unggulan .card:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Kontak Pesantren */
+        section#kontak {
+            /* background-color: #fdfffc; */
+            padding: 50px 0;
+        }
+        
+        section#kontak h2 {
+            font-size: 2em;
+            color: #000000;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 50px 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    
+
+<!-- Navigasi Pesantren (Tampilan Keren) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-">
+    <!-- <a class="navbar-brand" style="color: gray;" href="#">Pondok Pesantren Yatim Piatu & Dhuafa' Al-Munawwaroh</a> -->
+     <img src="/gambar/Gambar Pesantren.jpg" alt="logo" style="width: 80px; height: 80px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tentang-kami">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#program-unggulan">Program Unggulan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+
+<!-- Header Pesantren -->
+<header class="jumbotron jumbotron-fluid text-center text-white" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gambar/pesantren.jpg); background-repeat: no-repeat; background-size: cover; filter: grayscale(10);">
+    <div class="container" style="color: #fff;">
+        <h1 class="display-4">Selamat Datang di Pondok Pesantren Yatim Piatu & Dhuafa' Al-Munawwaroh</h1>
+        <p class="lead">Tempat Belajar dan Berkembang untuk Generasi Penerus</p>
+    </div>
+</header>
+
+
+
+<section id="beranda" class="container mt-4  d-flex flex-row gap-5 text-start">
+    <h2 style="font-family: 'Montserrat', algerian; font-size: 36px; font-weight: semibold;">Pondok Pesantren Yatim Piatu & Dhuafa' Al-Munawwaroh</h2>
+    <p style="font-family: 'Montserrat', sans-serif; font-size: 18px; color: #555; line-height: 1.5;">
+         Ini adalah halaman beranda pesantren. Pesantren Al-Munawwaroh merupakan tempat yang menyediakan lingkungan belajar dan berkembang bagi generasi penerus. Kami menawarkan pendidikan Islam yang holistik, melibatkan aspek agama, akademis, dan pengembangan karakter. Dengan didukung oleh para ustadz dan ustadzah yang berkualitas, kami berkomitmen untuk membentuk santri yang unggul dalam berbagai bidang.
+    </p>
+</section>
+
+
+<!-- Tentang Kami -->
+<section id="tentang-kami" class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Tentang Kami</h2>
+            <p>Yayasan Al-Munawaroh didirikan oleh KH. Ahmad Munir Fathullah dan Drs. Gus, H. M. Bisri Fathullah, pada tanggal 17 Mei 2011. Memperoleh izin Operasional dari MenKumHam melalui keputusan Menteri Hukum dan Hak Asasi Manusia Republik Indonesia no. AHU-0025124.AH.01.04 tahun 2016 tentang pengesahan pendirian badan hukum Yayasan  Al-Munawaroh. Serta sesuai Akta Notaris Agus Sasmito, SH (nomor: 01, tanggal : 4 Juni 2013).</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+            <img class="w-50 h-100" src="gambar/Gambar Pesantren.jpg"Gambar Pesantren" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+<!--  Program Unggulan -->
+<section id="program-unggulan" class="container mt-4" style="margin-top: 50px;">
+    <h2>Program Unggulan</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="w-100 h-100" src="gambar/prestasi.jpg"prestasi" class="img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title"> MQK  (Musabatul Qiroatul Kutub) </h5>
+                    <p class="card-text text-center">
+                        "Menyajikan kearifan kitab kuning dalam suasana kajian yang mendalam. Bersama ustadz berpengalaman, kita menjelajahi filsafat ilmu Islam, meningkatkan hafalan Al-Qur'an, dan membentuk karakter islami. Simulasikan khataman kitab kuning dan nikmati pengalaman spiritual dalam program ini. Jadi bagian dari perjalanan ilmu yang bermakna dan keberkahan di Pesantren kami!"
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="w-100 h-100" src="gambar/tahfid.jpeg"tahfid" class="img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Tahfid Quran</h5>
+                    <p class="card-text text-center">
+                        "Tahfid Quran pintu menuju keheningan batin dan cahaya hidup. Program unggulan kami memandu langkah-langkah Anda dalam memahami dan menghafal Al-Quran. Bergabunglah, raih keberkahan dalam setiap ayat, dan jadilah bagian dari perjalanan menghafal kitab suci di Pesantren kami.".</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="w-100 h-100" src="gambar/futsal.jpg"futsal" class="img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">Futsal</h5>
+                    <p class="card-text text-center">"Futsal Unggulan: Latihan intensif, taktik kreatif, dan semangat tim yang tak tergoyahkan. Bergabunglah dan rasakan kegembiraan bermain futsal dengan intensitas dan kualitas di Pesantren kami!"
+
+
+
+
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<!-- Konten Kontak Pesantren -->
+<section id="kontak" class="container mt-4">
+    <h2>Kontak Pesantren</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Jika Anda memiliki pertanyaan atau ingin mendapatkan informasi lebih lanjut, silakan hubungi kami:</p>
+            <ul class="list-unstyled">
+                <li>
+                    <strong>Alamat:</strong>
+                    <p>Jalan Pangeran Diponegoro, Gondang, Tulungrejo, Kec. Bumiaji, Kota Batu, Jawa Timur 65336</p>
+                </li>
+                <li>
+                    <strong>Instagram:</strong>
+                    <p><a href=https://www.instagram.com/pondok.almunawwaroh?igsh=MXh3Z3QwYnBreThnbQ==>@Pondok.almunawwaroh</a></p>
+                </li>
+                
+                <li>
+                    <strong>Telepon:</strong>
+                    <p>085-258-455-567</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6862894856567!2d112.5299356744337!3d-7.822990777694652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e787e730fbac55f%3A0x6a31cd251e16b5ec!2sPondok%20Pesantren%20Yatim%20Piatu%20dan%20Dhu&#39;afa%20%22Al-Munawwaroh%22!5e0!3m2!1sid!2sid!4v1705311385539!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2024 Pesantren Al-Munawwaroh. All rights reserved.</p>
+</footer>
+
+<!-- Link ke Bootstrap JavaScript (optional, tergantung pada kebutuhan) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
